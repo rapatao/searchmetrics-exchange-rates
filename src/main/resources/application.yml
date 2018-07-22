@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: exchange_rate
+
+fixer:
+  endpoint: http://data.fixer.io/api/latest
+  apiKey: YOUR API KEY GOES HERE
+  currencies: USD,BRL,MXN,AUD,CAD,PLN,MXN,BRL,EUR
+  cron: 0 */1 8-18 * * MON-FRI
