@@ -31,6 +31,8 @@ This project uses the [Fixer.io](https://fixer.io/) service to get the exchange 
 
 Replace the content *YOUR API KEY GOES HERE* with your key.
 
+To change the retrieve period of the exchange rate from the Fixer API, you have to change the property `fixer.cron` on the `application.yml`. By default, the project will retrieve the exchange rates from Monday to Friday, every minute from 8 AM to 18 PM. 
+
 # Building
 This project uses Maven for project management tool. To build and package the project, the following command must be executed:
 
